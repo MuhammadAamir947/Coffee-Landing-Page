@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_page {
+    height: 100vh;
+    background: url(./coffee\ background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between; /* Changed from space-evenly to space-between */
+    position: absolute;
+    backdrop-filter: blur(6px);
+    margin: 18px 50px 0 70px;
+    border: 2px solid #e6ccb2;
+    border-radius: 10px;
+    background: #9c664463;
+    padding: 0 50px;
+}
+
+.logo {
+    color: #ede0d4;
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.logo:hover{
+    color: #ddca7d;
+}
+
+nav ul {
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+ul > a {
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+li {
+    color: #ddca7d;
+    list-style: none;
+    transition: .1s ease-in-out;
+    padding: 14px 20px;
+}
+
+li:hover{
+    border-radius: 20px;
+    color: #9c6644;
+    background-color: #ffe2c7;
+}
+
+
+button{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #ddca7d;
+    padding: 14px 20px;
+    transition: .1s ease-in-out;
+}
+
+button:hover{
+    color: #5f2400;
+    background-color: #ffe2c7ba;
+    border-radius: 20px;
+}
+
+.main_page h1{
+    position: absolute;
+    top: 37%;
+    left: 52%;
+    font-family: 'Anton SC Static';
+    font-weight: 700;
+    font-size: 65px;
+    color: #e1bb80;
+}
+
+.main_page .h1_2{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-family: 'Anton SC Static';
+    font-weight: 700;
+    font-size: 65px;
+    color: #e1bb80;
+}
+
+.main_page .order{
+    position: absolute;
+    top: 65%;
+    left: 66%;
+    background-color: #9c664482;
+    padding: 10px 30px;
+    color: #ede0d4;
+    border-radius: 5px;
+    border: 2px solid ;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .2s ease;
+}
+
+.main_page .order:hover{
+    background-color: #9c6644;
+    color: #ffe2c7;
+    box-shadow: 0 0 8px #ffebdf;
+}
